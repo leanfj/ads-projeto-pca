@@ -7,9 +7,9 @@ O Projeto Curricular Articulador tem como objetivo geral criar uma solução par
 Cliente: Alunos do curso técnico em informática.
 Objetivo: O grupo deverá criar um site ou blog para auxiliar o processo de aprendizagem dos alunos do ensino técnico em informática.
 
-##TEMA: Site sobre Linguagem de Marcação e Configuração
+## TEMA: Site sobre Linguagem de Marcação e Configuração
 
-###Definição de conteúdo do site:
+### Definição de conteúdo do site:
 
 O site terá uma página inicial contendo os acessos ao demais conteúdos.
 
