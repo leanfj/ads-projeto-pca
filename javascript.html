@@ -25,8 +25,56 @@
   <main>
     <!-- CONTEUDO DE JAVASCRIPT -->
     <section>
-      <h2>CONTEUDO DE JAVASCRIPT</h2>
+      <h2>INTRODUÇÃO AO JAVASCRIPT</h2>
+      <br>
+      <h3>O que realmente é JavaScript</h3>
+      <br>
+      <p>JavaScript é uma linguagem de programação que pode ser aplicada em um documento HTML e usada para criar interações dinâmicas em sites. Ela foi inventada por Brendan Eich, co-fundador do projeto Mozilla, da Fundação Mozilla e da Corporação Mozilla.</p>
+      <br>
+      <p>Você pode fazer muita coisa com JavaScript. Você vai começar com coisas simples como ajustar layouts, fazer coisas acontecerem quando botões quando são clicados, sliders e galerias de imagem — mas a medida que você for ganhando experiência com a linguagem, você poderá criar jogos, animações gráficas em 2D e 3D, aplicativos com base de dados e muito mais.</p>
+      <br>
+      <p>JavaScript é por si só uma linguagem compacta, mas muito flexível, e desenvolvedores tem escrito diversas ferramentas para que você possa ter acesso à várias funcionalidades extras com pequeno esforço. Essas incluem:</p>
+      <br>
+      <ul class="lista-texto">
+        <li>Application Programming Interfaces (APIs) construídas em web browsers, possuem várias funções como criar HTML e atribuir estilos de CSS, para pegar e manipular um stream de vídeo da webcam de um usuário, ou gerar gráficos 3D e amostras de áudio.</li><br>
+        <li>APIs de terceiros, que permitem aos desenvolvedores incorporarem funcionalidades em seus sites de outras propriedades, como Twitter ou Facebook.</li><br>
+        <li>Frameworks e bibliotecas, que você pode aplicar em seu HTML para permitir que você construa rapidamente sites e aplicações.</li>
+      </ul>
+      <br>
+      <p>No entanto, JavaScript é um pouco mais difícil do que HTML e CSS, e você terá que começar devagar e continuar trabalhando em pequenos passos. Para começar, mostraremos a você como adicionar algum Javascript realmente básico para sua página, para criar um exemplo "Olá Mundo!!"</p>
+      <br>
+      <div class="embed-codepen">
+        <p data-height="258" data-theme-id="0" data-slug-hash="XgjmBE" data-default-tab="js,result" data-user="leanfj" data-embed-version="2" data-pen-title="Exemplo JS" class="codepen">See the Pen <a href="https://codepen.io/leanfj/pen/XgjmBE/">Exemplo JS</a> by Leandro Ferreira de Jesus (<a href="https://codepen.io/leanfj">@leanfj</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <h4>O que aconteceu?</h4>
+      <br>
+      <p>Seu botão incluiu o texto "Olá mundo!" usando JavaScript. Nós fizemos isso usando uma função chamada querySelector() para pegar uma referência do nosso cabeçalho <code><span><</span><span class="texto-tag">h2</span><span>></span></code> e armazená-la em uma variável chamada <strong>texto</strong>. Isso é similar ao que fizemos em CSS usando os seletores. Quando nós queremos fazer algo a um elemento, então precisamos selecioná-lo primeiro. Depois disso, nós indicamos o valor da propriedade <strong>texto.innerHTML</strong> (que representa o conteúdo do cabeçalho) para "Olá Mundo".</p>
+      <br>
+      <h3>Como você adiciona JavaScript na sua página?</h3>
+      <br>
+      <p>O JavaScript é inserido na sua página de uma maneira similar ao CSS. Enquanto o CSS usa o elemento <code><span><</span><span class="texto-tag">link</span><span>></span></code> para aplicar folhas de estilo externas e o elemento <code><span><</span><span class="texto-tag">style</span><span>></span></code> para aplicar folhas de estilo internas, o JavaScript só precisa de um amigo no mundo do HTML — o elemento <code><span><</span><span class="texto-tag">script</span><span>></span></code>. Vamos aprender como funciona.</p>
+      <br>
+      <h4>JavaScript interno</h4>
+      <br>
+      <div class="embed-codepen">
+        <p data-height="581" data-theme-id="0" data-slug-hash="ZypbPr" data-default-tab="html,result" data-user="leanfj" data-embed-version="2" data-pen-title="JavaScript interno" class="codepen">See the Pen <a href="https://codepen.io/leanfj/pen/ZypbPr/">JavaScript interno</a> by Leandro Ferreira de Jesus (<a href="https://codepen.io/leanfj">@leanfj</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <br>
+      <h4>JavaScript externo</h4>
+      <div class="embed-codepen">
+        <p data-height="253" data-theme-id="0" data-slug-hash="OgRyYX" data-default-tab="html" data-user="leanfj" data-embed-version="2" data-pen-title="JavaScript externo" class="codepen">See the Pen <a href="https://codepen.io/leanfj/pen/OgRyYX/">JavaScript externo</a> by Leandro Ferreira de Jesus (<a href="https://codepen.io/leanfj">@leanfj</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <br>
+      <h4>Manipuladores de JavaScript inline</h4>
+      <div class="embed-codepen">
+        <p data-height="265" data-theme-id="0" data-slug-hash="gRwaNP" data-default-tab="html,result" data-user="leanfj" data-embed-version="2" data-pen-title="Manipuladores de JavaScript inline" class="codepen">See the Pen <a href="https://codepen.io/leanfj/pen/gRwaNP/">Manipuladores de JavaScript inline</a> by Leandro Ferreira de Jesus (<a href="https://codepen.io/leanfj">@leanfj</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+      </div>
     </section>
+
   </main>
   <footer>
     <div class="sobre">
@@ -42,5 +90,10 @@
       <p>Luciano Inacio Pereira Junior - Mat.: 5404625</p>
     </div>
   </footer>
+  <script type="text/javascript">
+    function exemploFuncao() {
+      alert("Isso ja é JS");
+    }
+  </script>
 </body>
 </html>

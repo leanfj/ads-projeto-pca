@@ -132,6 +132,22 @@ section img {
   width: 70%;
   margin: 0 auto;
 }
+.embed-youtube {
+  margin: 0 auto;
+  width: 420px;
+}
+.link-video {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .embed-youtube {
+    display: none;
+  }
+  .link-video {
+    display: block;
+  }
+
+}
 
 
 /*FOOTER*/

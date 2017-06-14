@@ -25,7 +25,66 @@
   <main>
     <!-- CONTEUDO DE CSS -->
     <section>
-      <h2>CONTEUDO DE CSS</h2>
+      <h2>INTRODUÇÃO AO CSS</h2>
+      <br>
+      <p>O CSS descreve como os elementos HTML devem ser exibidos.</p>
+      <br>
+      <h3>Como o CSS afeta o HTML?</h3>
+      <br>
+      <p>Navegadores aplicam regras CSS a documentos para alterar como estes são exibidos. Uma regra CSS é forma de:</p>
+      <br>
+      <p>Um conjunto de properties, dos quais possuem valores definidos para atualizer como o conteúdo da página HTML é exibido, por exemplo Quero que o tamanho de meus elementos seja 50% o de seu elemento pai, e que seu background seja vermelho.</p>
+      <br>
+      <p>Um selector, o qual seleciona o(s) elemento(s) ao qual você quer aplicar os valores das propriedades. Por exemplo, Quero aplicar minha regra CSS a todos os parágrados em meu documento HTML.</p>
+      <br>
+      <img src="img/css2.png" alt="">
+      <br>
+      <h4>Diferentes tipos de seletores</h4>
+      <br>
+      <p>Seletores podem ser divididos nas seguintes categorias:</p>
+      <br>
+      <ul class="lista-texto">
+        <li><strong>Seletores simples :</strong> Combinar um ou mais elementos com base no tipo de elemento, class ou id.</li><br>
+        <li><strong>Seletores de atributo :</strong> Combinar um ou mais elementos com base em seus atributos / valores de atributos.</li><br>
+        <li><strong>Pseudo-classes :</strong> Combinar um ou mais elementos que existem em um determinado estado, como um elemento que está sendo pairado sobre ponteiro do mouse, ou uma caixa de seleção que está atualmente nã selecionada ou selecionada, ou um elemento que é o primeiro filho de seu pai na árvore DOM.</li><br>
+        <li><strong>Pseudo-elementos :</strong> Combinar uma ou mais partes do conteúdo que estão em uma determinada posição em relação a um elemento, por exemplo, a primeira palavra de cada parágrafo ou conteúdo gerado pouco antes de um elemento.</li><br>
+        <li><strong>Combinadores :</strong> Estas não são exatamente seletores si, mas formas de combinar dois ou mais seletores em formas úteis para as seleções muito específicas. Assim, por exemplo, você pode selecionar apenas os parágrafos que são descendentes diretos de divs ou parágrafos que vêm diretamente após os cabeçalhos.</li><br>
+        <li><strong>Vários seletores :</strong> Mais uma vez, estes não são seletores separados; a idéia é que você pode colocar vários seletores na mesma regra CSS, separados por vírgulas, para aplicar um único conjunto de declarações a todos os elementos selecionados por esses seletores.</li>
+      </ul>
+      <br>
+      <h4>Um rápido exemplo de CSS</h4>
+      <br>
+      <p>A descrição acima pode ter feito sentido ou não para você, então vamos garantir que as coisas estão claras mostrando um rápido exemplo.</p>
+      <br>
+      <p>Antes de mais nada, vejamos um documento HTML simples, contendo um <code><span><</span><span class="texto-tag">h1</span><span>></span></code> e um <code><span><</span><span class="texto-tag">p</span><span>></span></code>perceba que a folha de estilo é aplicada ao HTML utilizando um elemento <code><span><</span><span class="texto-tag">link</span><span>></span></code></p><br>
+      <div class="embed-codepen">
+        <p data-height="289" data-theme-id="0" data-slug-hash="WOGvme" data-default-tab="css,result" data-user="leanfj" data-embed-version="2" data-pen-title="Exemplo CSS" class="codepen">See the Pen <a href="https://codepen.io/leanfj/pen/WOGvme/">Exemplo CSS</a> by Leandro Ferreira de Jesus (<a href="https://codepen.io/leanfj">@leanfj</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+        <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <br>
+      <p>Um conjunto de regras CSS contidos em uma folha de estilos detemina como uma página da web deve parecer. Você irá aprender muito mais sobre como a sintaxe CSS parece no próxim artigo do módulo — Sintaxe CSS.</p>
+      <br>
+      <h3>Declarações CSS</h3>
+      <br>
+      <p>Definição de propriedades CSS para valores específicos é a função central da linguagem CSS. O motor CSS calcula que as declarações se aplicam a cada elemento de uma página, a fim de posicionar e estilizar adequadamente. O que é importante lembrar é que propriedades e valores são case-sensitive em CSS. A propriedade e o valor estão separados por dois pontos</p>
+      <img src="img/css1.png" alt="">
+      <br>
+      <p>Existem mais de <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">300 diferentes propriedades</a> em CSS e quase um número infinito de diferentes valores. Nem todos os pares de propriedades e valores são permitidos; cada propriedade tem uma lista específica de valores válidos definidos para ele.</p>
+      <br>
+      <h4>Exemplos de propriedades</h4>
+      <br>
+      <div class="embed-codepen">
+        <p data-height="421" data-theme-id="0" data-slug-hash="awmvmq" data-default-tab="css,result" data-user="leanfj" data-embed-version="2" data-pen-title="Propriedade CSS" class="codepen">See the Pen <a href="https://codepen.io/leanfj/pen/awmvmq/">Propriedade CSS</a> by Leandro Ferreira de Jesus (<a href="https://codepen.io/leanfj">@leanfj</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <br>
+      <h3>Blocos de declaração CSS</h3>
+      <br>
+      <p>Declarações são agrupados em blocos, com cada conjunto de declarações será envolto por chaves, { }.</p>
+      <p>Cada declaração contida no interior de um bloco de declaração tem que ser separado por um ponto e vírgula ( ;), caso contrário, o código não irá funcionar (resultados inesperados vão acontecer.) A última declaração de um bloco não necessita de ser terminada pela um ponto e vírgula, embora seja muitas vezes considerado um bom estilo.</p>
+      <br>
+      <img src="img/css3.png" alt="">
+
     </section>
   </main>
   <footer>
